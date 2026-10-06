@@ -1,0 +1,14 @@
+public void ejercicio03(){
+
+    int numAsignaturas;
+    double notaMediaAsignautra;
+    int edadPersona;
+    double salarioMensualEmpleado;
+    String nombreAsignatura;
+    final double PI = 3.141592
+    final boolean VEERDADERO = true;
+    int portalVivienda;
+    int pisoVivienda;
+    char puertaVivienda;
+
+}
