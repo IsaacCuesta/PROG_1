@@ -1,0 +1,4 @@
+3.1.1
+    Ejercicio 4: la salida muestra 1.29999999998 en lugar de 1.3. Esto ocurre porque los tipos primitvos en coma flotante no pueden representar con precisión exacta
+                ciertas fracciones decimales.
+    Ejercicio 5: al añadir la clase BigDecimal se resuelve este problema realizando aritmética decimal exacta sobre cadenas.
