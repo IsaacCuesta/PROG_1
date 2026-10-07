@@ -27,7 +27,7 @@ public class Apartado030101 {
         boolean variable10 = true;
     }
 
-    publi void ejercicio03() {
+    public void ejercicio03() {
         int numAsignaturas;
         double notaMediaAsignatura;
         int edadPersona
