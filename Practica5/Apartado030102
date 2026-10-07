@@ -19,4 +19,25 @@ public class Apartado030102 {
         System.out.println("op1: " + op1 + ", op2: " + op2 + ", resultado: " + resultado);
     }
 
+    public void ejercicio02() {
+        int edad = 45;
+        int numeroPartes = 1;
+        boolean deportivo = false;
+
+        boolean rebaja = (edad >= 40 && edad <= 60 && numeroPartes < 3) || (edad > 20 && numeroPartes <= 1 && !deportivo);
+
+        System.out.println("Rebaja= " + rebaja);
+    }
+
+    public void ejercicio03() {
+        int totalSegundos = 56000;
+
+        int horas = totalSegundos / 3600;
+        int restoHoras = totalSegundos % 3600;
+        int minutos = restoHoras / 60;
+        int segundos = restoHoras % 60;
+
+        System.out.println(horas + "h " + minutos "m " + segundos + "s "); 
+    }
+
 }
