@@ -1,0 +1,92 @@
+public class Apartado030104 {
+
+    public void ejercicio01() {
+        byte varByte = 50;
+        short varShort = 1500;
+        int varInt = 1500000;
+        long varLong = 65000000;
+        float varFloat = 20.0E4F;
+        double varChar = 'H';
+        boolean varBoolean = true;
+
+        // Conversiones válidas
+        varInt = varShort;
+        varaDouble = varFloat;
+        varFloat = varLong;
+        varLong = varInt;
+        varLong = 9223372036854775807L;
+        varFloat = varLong;
+
+        // Conversiones incorrectas
+        // varByte = varShort;          --> Requiere (byte)
+        // varShort = varInt;           --> Requiere (short)
+
+    }
+
+    public void ejercicio02() {
+        
+        byte varByte;
+        short varShort;
+        int varInt;
+        long varLong = 35000L;
+
+        varInt = (int) varLong;
+        varByte = (short) varLong;
+        varByte = (byte) varLong;
+
+        System.out.println("varInt: " + varInt);
+        System.out.println("varShort: " + varShort);
+        System.out.println("varByte: " + varByte);
+
+    }
+
+    public void ejercicio03() {
+
+        byte varByte;
+        short varShort;
+        int varInt;
+        long varLong;
+        float varFloat = 123.1f;
+        double varDouble;
+
+        varDouble = varFloat;
+        varLong = (long) varFloat;
+        varint = (int) varFloat;
+        varShort = (short) varFloat;
+        varByte = (byte) varFloat;
+
+        System.out.println("Double: " + varDouble + ", Long: " + varLong + ", Int: " + varInt + ", Short: " + varShort + ", Byte: " +varByte);
+
+    }
+
+    public void ejercicio04() {
+
+        double dGigante,dNormal, dMinimo;
+        float fGigante, fNormal, fMinimo;
+
+        dGigante = 1.766e289;
+        dNormal = 35.987654321;
+        dMinimo = 0.2E-256;
+
+        fGigante = (float) dGigante;
+        fNormal = (float) dNormal;
+        fMinimo = (float) dMinimo;
+
+        System.out.println("Gigante: " + fGigante);
+        System.out.println("Normal: " + fNormal);
+        system.out.println("Minimo: " + fMinimo);
+
+        byte b = (byte) 130;
+        short s = (short) 32770;
+        int i (int) 2147483650L;
+
+        System.out.println("Byte: " + b);
+        System.out.println("Short: " + s);
+        System.out.println("Int: " + i);
+
+        float f = 1.3e22f;
+        System.out.println("f: " + f);
+
+    }
+
+}
