@@ -14,4 +14,17 @@ public class Apartado030101 {
         doouble otraVariable = 2.0;
     }
 
+    public void ejercicio02() {
+        int vairable1 = 637;
+        long variable2 = 637;
+        double varable3 = 6.37;
+        float variable4 = 6.37f;
+        double vairable5 = 6.37d;
+        char variable6 = '6';
+        String variable = "6.37";
+        char varibal8 = 'a';
+        Strign variable9 = "a";
+        boolean variable10 = true;
+    }
+
 }
