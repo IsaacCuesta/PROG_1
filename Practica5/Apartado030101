@@ -1,0 +1,17 @@
+public class Apartado030101 {
+
+    public void ejercicio01() {
+        int entero =6;
+        long otroEntero = 1000L;
+        double decimal = 7.0;
+        double otroDecimal = 7.0;
+        byte enteroDe8Bits = 100;
+        char caracter = 'a';
+        char otroCaracter = 'a';
+        boolean booleano = true;
+        shor eneroDe16Bits = 30000;
+        byte variableInte = 3;
+        doouble otraVariable = 2.0;
+    }
+
+}
