@@ -2,3 +2,13 @@
     Ejercicio 4: la salida muestra 1.29999999998 en lugar de 1.3. Esto ocurre porque los tipos primitvos en coma flotante no pueden representar con precisión exacta
                 ciertas fracciones decimales.
     Ejercicio 5: al añadir la clase BigDecimal se resuelve este problema realizando aritmética decimal exacta sobre cadenas.
+
+3.1.4
+    Ejercicio 2: al realizar conversiones explícitas de tipo estrecho, los bits superiores son ignorados. 35000 entre dentro del rango de int, por lo que conserva
+                suvalor. Sin embargo, supera el rango de short y de byte, produciendo un desbordamiento u overflow que resulta en valores distorsionados o negativos.
+    Ejercicio 4: dGigante excede la capacidad máxima de un float, resultando en Infinity. dMinimo es tan pequeño que al convertirse a float subre subdesbordamiento
+    mostrando 0.0. Los valores byte, short e int muestran el resultado del truncamiento de bits tras sobrepasar sus límites máximos.
+
+3.1.5
+    Ejercicio 10: El método comparaTo compara las cadenas de posición por posición. Dado que las letras mayúsculas tienen valores ASCII inferiores a las minúsculas,
+                el resultado es un entero negativo.

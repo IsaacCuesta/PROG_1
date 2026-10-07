@@ -1,0 +1,115 @@
+public class Apartado030201 {
+
+    public void ejercicio01() {
+
+        String cadena = "En un lugar de la Mancha";
+
+        int longitud = cadena.length();
+        int posIntermedia = longitud / 2;
+        char caracter = cadena.charAt(posIntermedia);
+        int codigo = (int) caracter;
+
+        System.out.println("Carácter intermedio: " + caracter + " (Código: " + codigo + ")");
+        
+    }
+
+    public void ejercicio02() {
+
+        String cadena = "Viaje al Parnaso";
+        String otraCadena = "Viaje al parnaso";
+
+        System.out.println("Iguales con equals: " + cadena.equals(otraCadena));
+        System.out.println("Iguales con equalsIgnoreCase: " + cadena.equalsIngoreCase(otraCadena));
+        System.out.println("Iguales tras toLowerCase: " + cadena.toLoweCase().equals(otraCadena.toLowerCase()));
+
+    }
+
+    public void ejercicio03() {
+
+        String cadena = "Viaje al Parnaso";
+        String otraCadena = "Persistes y Segismunda";
+
+        String res1 = cadena + " " + otraCadena;
+        String res2 = cadena.concact(" ").concat(otraCadena);
+
+        System.out.println("Operador +: " + res1);
+        System.out.println("Método concat: " + res2);
+
+    }
+
+    public void ejercicio04() {
+
+        String cadena = "Viaje al Parnaso";
+
+        boolean termina = cadena.endsWith("Parnaso");
+        boolean empieza = cadena.startsWhith("Viaje");
+
+        System.out.println("Termina con parnaso: " + termina);
+        System.out.println("Empieza con Viaje: " + empieza);
+
+    }
+
+    public void ejercicio05() {
+
+        String cadena = "Viaje al Parnaso",
+
+        System.out.println("Posición 'p': " + cadena.indexOf('p'));
+        System.out.println("Posición 'Par0: " + cadena.indexOf("Par"));
+        System.out.println("Última 'a': " + cadena.lastIndexof('a'));
+        System.out.println("'a' desde posición 3: " + cadena.indexOf('a', 3));
+
+    }
+
+    public void ejercicio06() {
+
+        String cadena = "viaje al Parnaso";
+
+        String r1 = cadena.replace('a', '*');
+        String r2 = cadena.replace("Parnaso", "Olimpo");
+
+        System.out.println("Reemplazo 'a': " + r1);
+        System.out.println("Reemplazo Parnaso: " + r2);
+
+    }
+
+    public void ejercicio07() {
+        String cadena = "Viaje al Parnaso";
+
+        String sub1 = cadena.substring(cadena.length() / 2);
+        int posJ = cadena.indexOf('j');
+        int posS = cadena.indexOf('s');
+        String sub2 = cadena.substring(posJ, posS);
+
+        System.out.println("Subcadena mitad-final: " + sub1);
+        System.out.println("Subcadena de 'j' a 's': " + sub2);
+    }
+
+    public void ejercicio08() {
+        String cadena = " La Galatea ";
+        String limpia = cadena.trim();
+
+        System.out.println("Sin espacios: '" + limpia + "'");
+    }
+
+    public void ejercicio09() {
+        double numero = 1.12e12;
+        boolean expression = true;
+        long enteroGrande = 1231231L;
+
+        String s1 = String.valueOf(numero);
+        String s2 = String.valueOf(expression);
+        String s3 = String.valueOf(enteroGrande);
+
+        System.out.println("s1: " + s1 + " | s2: " + s2 + " | s3: " + s3);
+    }
+
+    public void ejercicio10() {
+        String cadena = "Viaje al Parnaso";
+        String otraCadena = "viaje al olimpo";
+
+        int res = cadena.compareTo(otraCadena);
+        System.out.println("Resultado compareTo: " + res);
+    }   
+
+
+}
