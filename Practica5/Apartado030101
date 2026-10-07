@@ -40,4 +40,17 @@ public class Apartado030101 {
         char puertaVivienda;
     }
 
+    public void ejercicio04() {
+        double valor1 = 2.8;
+        double vaor2 = 1.5;
+        double resultado = valor1 - valor2;
+        System.out.printl(valor1 + " - " + valor2 + " = " + resultado);
+    }
+
+    public void ejercicio05() {
+        BigDecimal valor1 = new BigDecimal("2.8");
+        BigDecimal valor2 = new BigDecimal("1.5");
+        System.out.println(valor1 + " - " + valor2 + " - " valor1.subtract(valor2));
+    }
+
 }
